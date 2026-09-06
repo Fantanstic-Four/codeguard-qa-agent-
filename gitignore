@@ -1,0 +1,57 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Node and frontend
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+.next/
+coverage/
+
+# Java and Gradle
+.gradle/
+target/
+out/
+*.class
+
+# IDE and operating system
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Runtime artefacts and local databases
+logs/
+tmp/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated or sensitive evidence
+evidence/private/
+evidence/raw/
+evidence/**/*.zip
+evidence/**/*.tar
+evidence/**/*.gz
+
