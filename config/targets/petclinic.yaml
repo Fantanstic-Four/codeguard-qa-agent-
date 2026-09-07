@@ -1,0 +1,71 @@
+schema_version: "1.0"
+
+target:
+  id: "petclinic"
+  display_name: "Spring PetClinic"
+  status: "pending_team_verification"
+
+repository:
+  upstream_url: "https://github.com/spring-projects/spring-petclinic"
+  team_fork_url: "https://github.com/Fantanstic-Four/spring-petclinic"
+  default_branch: "main"
+
+authorization:
+  owner: "Fantanstic-Four"
+  approved_by: "Fantanstic-Four"
+  approved_on: "Fantanstic-Four_2026-09-07"
+  codeguard_access: "read_only"
+  permitted_uses:
+    - "read_public_source_and_documentation"
+    - "run_allow_listed_tests_in_sandbox"
+    - "store_redacted_test_evidence"
+  prohibited_uses:
+    - "commit_or_push_changes"
+    - "open_or_merge_pull_requests"
+    - "deploy_the_application"
+    - "read_secrets_or_private_data"
+    - "run_arbitrary_shell_commands"
+
+paths:
+  allowed_read_paths:
+    - "README.md"
+    - "pom.xml"
+    - "build.gradle"
+    - "settings.gradle"
+    - "src/main/**"
+    - "src/test/**"
+  denied_paths:
+    - ".git/**"
+    - ".env"
+    - ".env.*"
+    - "**/*secret*"
+    - "**/*credential*"
+
+test_suites:
+  - id: "petclinic_maven_tests"
+    command_alias: "maven_test"
+    resolved_command: "./mvnw test"
+    working_directory: "."
+    timeout_seconds: 300
+    network: "disabled_after_dependencies_are_cached"
+  - id: "petclinic_gradle_tests"
+    command_alias: "gradle_test"
+    resolved_command: "./gradlew test"
+    working_directory: "."
+    timeout_seconds: 300
+    network: "disabled_after_dependencies_are_cached"
+
+execution_limits:
+  max_tool_calls_per_session: 5
+  max_test_runs_per_session: 2
+  max_retry_per_operation: 1
+
+licence:
+  retain_upstream_licence: true
+  attribution_required: true
+
+evidence:
+  baseline_test_date: "Fantanstic-Four_2026-09-07"
+  baseline_command_used: "Fantanstic-Four"
+  baseline_exit_code: "Fantanstic-Four"
+  baseline_result_path: "Fantanstic-Four"
