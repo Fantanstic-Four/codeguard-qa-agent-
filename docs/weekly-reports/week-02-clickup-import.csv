@@ -1,0 +1,11 @@
+Task Name,Description,Assignee,Due Date,Priority,Status,External Task Key
+Compare model options and approve selection,"Compare capability, cost, latency, privacy and access. Add official source links and record the decision comment.",NAKALEMA JULIAN,12/09/2026,High,DONE,W2-01
+Finalise one-page Model Selection Note,Review docs/model-selection-note.md; verify that claims have official sources; open a pull request and obtain one peer review.,NAKALEMA JULIAN,12/09/2026,High,DONE,W2-02
+Implement baseline model interaction,"Implement settings, Gemini client, output schema, service and CLI in src/codeguard/. Do not commit credentials.",NSUBUGA IBRAHIM,12/09/2026,Urgent,DONE,W2-03
+Create Prompt v1.0,"Write the initial role, task, context, constraints, output and failure behaviour prompt; request review from Member 1.",NAMEMBWA SHERRY,12/09/2026,High,DONE,W2-04
+Create Prompt v1.1 and version documents,Make at least one meaningful iteration based on anticipated failure modes; update prompt specification and version history.,NAMEMBWA SHERRY,12/09/2026,High,DONE,W2-05
+Finalise ten evaluation cases,"Check normal, boundary, negative, missing-context and adversarial coverage in evaluation/week2_cases.json.",NAMEMBWA SHERRY,12/09/2026,High,DONE,W2-06
+Run unit tests and genuine model evaluations,Run pytest and execute all ten cases with v1.0 and v1.1 using an institutionally approved model credential. Attach logs and both result CSV files.,KAYIWA RAHIM,12/09/2026,Urgent,DONE,W2-07
+Fix failures and rerun checks,"Review failed cases, implement only justified fixes, rerun tests and link the before/after evidence.",NSUBUGA IBRAHIM,12/09/2026,High,DONE,W2-08
+Complete Week 2 progress report,"Replace team placeholders, summarize measured results truthfully and add GitHub, ClickUp and evidence links.",NAKALEMA JULIAN,12/09/2026,High,DONE,W2-09
+Perform final submission review,"Verify deliverables, secrets, filenames, links, approvals and exact commit; record final reviewer approval.",KAYIWA RAHIM,12/09/2026,Urgent,DONE,W2-10
