@@ -49,9 +49,9 @@ def main() -> None:
         f"| Overall cases passed | {summaries['v1.0']['passed']} | {summaries['v1.1']['passed']} |",
         f"| Mean latency in milliseconds | {summaries['v1.0']['mean_latency']} | {summaries['v1.1']['mean_latency']} |",
         "",
-        "Selected prompt: TEAM TO COMPLETE AFTER REVIEW",
+        "Selected prompt: FANTASTIC FOUR AFTER REVIEW",
         "",
-        "Evidence-based reason: TEAM TO COMPLETE AFTER INSPECTING FAILED CASES",
+        "Evidence-based reason: FANTASTIC FOUR AFTER INSPECTING FAILED CASES",
     ]
     output = ROOT / "week2_prompt_comparison.md"
     output.write_text("\n".join(lines) + "\n", encoding="utf-8")
