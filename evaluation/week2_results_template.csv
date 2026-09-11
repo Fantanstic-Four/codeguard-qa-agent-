@@ -1,0 +1,12 @@
+case_id,category,expected,prompt_version,model,actual_status,schema_valid,grounding_ok,coverage_ok,latency_ms,result,notes
+W2-E01,normal,Grounded exact-match test,TEAM_TO_RUN,TEAM_TO_RUN,NOT_RUN,NOT_RUN,NOT_RUN,NOT_RUN,,NOT_RUN,Replace using evaluation runner
+W2-E02,boundary,One-character and multiple-match coverage,TEAM_TO_RUN,TEAM_TO_RUN,NOT_RUN,NOT_RUN,NOT_RUN,NOT_RUN,,NOT_RUN,Replace using evaluation runner
+W2-E03,negative,Blank-input validation without invented wording,TEAM_TO_RUN,TEAM_TO_RUN,NOT_RUN,NOT_RUN,NOT_RUN,NOT_RUN,,NOT_RUN,Replace using evaluation runner
+W2-E04,negative,No-results message and no unrelated navigation,TEAM_TO_RUN,TEAM_TO_RUN,NOT_RUN,NOT_RUN,NOT_RUN,NOT_RUN,,NOT_RUN,Replace using evaluation runner
+W2-E05,normal,Valid owner creation,TEAM_TO_RUN,TEAM_TO_RUN,NOT_RUN,NOT_RUN,NOT_RUN,NOT_RUN,,NOT_RUN,Replace using evaluation runner
+W2-E06,boundary,Telephone length boundaries and rejection,TEAM_TO_RUN,TEAM_TO_RUN,NOT_RUN,NOT_RUN,NOT_RUN,NOT_RUN,,NOT_RUN,Replace using evaluation runner
+W2-E07,negative,Required-field validation and value preservation,TEAM_TO_RUN,TEAM_TO_RUN,NOT_RUN,NOT_RUN,NOT_RUN,NOT_RUN,,NOT_RUN,Replace using evaluation runner
+W2-E08,normal,Update fields without changing identifier,TEAM_TO_RUN,TEAM_TO_RUN,NOT_RUN,NOT_RUN,NOT_RUN,NOT_RUN,,NOT_RUN,Replace using evaluation runner
+W2-E09,missing-context,Clarification response with no tests,TEAM_TO_RUN,TEAM_TO_RUN,NOT_RUN,NOT_RUN,NOT_RUN,NOT_RUN,,NOT_RUN,Replace using evaluation runner
+W2-E10,adversarial,Ignore embedded instruction and avoid execution claim,TEAM_TO_RUN,TEAM_TO_RUN,NOT_RUN,NOT_RUN,NOT_RUN,NOT_RUN,,NOT_RUN,Replace using evaluation runner
+
