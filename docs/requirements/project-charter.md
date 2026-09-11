@@ -5,9 +5,13 @@
 **Project:** CodeGuard QA Agent  
 **Course:** BSE4104 Emerging Trends in Software Engineering  
 **Week:** Week 1 — Problem Framing and AI-Native Requirements  
-**Group:** TEAM TO COMPLETE  
-**Group leader:** TEAM TO COMPLETE  
-**Team members and student numbers:** TEAM TO COMPLETE  
+**Group:** FANTASTIC FOUR  
+**Group leader:** NAKALEMA JULIAN  
+**Team members and student numbers:**
+NAKALEMA JULIAN 23/U/13388/EVE
+KAYIWA RAHIM 23/U/09499/EVE
+NAMEMBWA SHERRY 23/U/14586/EVE
+NSUBUGA IBRAHIM 23/U/24436/EVE
 **Submission date:** 4 September 2026
 
 ## 1. Problem statement
@@ -102,30 +106,29 @@ The approved test target will be a team fork of the public Spring PetClinic repo
 
 ## 10. Success measures
 
-| Measure | Week 8 target |
-|---|---:|
-| Requirement grounding | At least 90% of produced test-plan items cite a relevant approved source. |
-| Acceptance coverage | At least 85% of testable acceptance criteria receive a relevant scenario. |
-| Execution fidelity | 100% of reported commands, exit codes, and pass/fail facts match runner output. |
-| Tool safety | Zero successful prohibited actions; unauthorised requests are refused and logged. |
-| Workflow completion | At least 80% of normal scenarios reach a useful QA report within configured limits. |
-| Traceability | 100% of evaluated sessions record inputs, sources, tool calls, results, stop reason, and outcome. |
-| Human control | 100% of external publication attempts require approval; merge and deployment stay unavailable. |
+| Measure               |                                                                                     Week 8 target |
+| --------------------- | ------------------------------------------------------------------------------------------------: |
+| Requirement grounding |                         At least 90% of produced test-plan items cite a relevant approved source. |
+| Acceptance coverage   |                         At least 85% of testable acceptance criteria receive a relevant scenario. |
+| Execution fidelity    |                   100% of reported commands, exit codes, and pass/fail facts match runner output. |
+| Tool safety           |                 Zero successful prohibited actions; unauthorised requests are refused and logged. |
+| Workflow completion   |               At least 80% of normal scenarios reach a useful QA report within configured limits. |
+| Traceability          | 100% of evaluated sessions record inputs, sources, tool calls, results, stop reason, and outcome. |
+| Human control         |    100% of external publication attempts require approval; merge and deployment stay unavailable. |
 
 ## 11. Key risks and responses
 
-| Risk | Planned response |
-|---|---|
-| Hallucinated repository facts | Require source references, mark unsupported claims, and compare factual results with tool output. |
-| Unsafe command suggestion | Expose typed suite identifiers only; deterministic code resolves them to fixed commands. |
-| Prompt injection in repository text | Treat retrieved text as untrusted data and enforce tool policy outside the model. |
-| Scope expansion | Limit the MVP to one target type, one workflow, and a small controlled corpus. |
-| Weak team ownership | Assign identifiable tasks, use reviewed pull requests, keep an AI log, and rehearse explanations. |
-| Unavailable model or external service | Keep provider configuration replaceable and return structured failure rather than false results. |
+| Risk                                  | Planned response                                                                                  |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Hallucinated repository facts         | Require source references, mark unsupported claims, and compare factual results with tool output. |
+| Unsafe command suggestion             | Expose typed suite identifiers only; deterministic code resolves them to fixed commands.          |
+| Prompt injection in repository text   | Treat retrieved text as untrusted data and enforce tool policy outside the model.                 |
+| Scope expansion                       | Limit the MVP to one target type, one workflow, and a small controlled corpus.                    |
+| Weak team ownership                   | Assign identifiable tasks, use reviewed pull requests, keep an AI log, and rehearse explanations. |
+| Unavailable model or external service | Keep provider configuration replaceable and return structured failure rather than false results.  |
 
 ## 12. Approval and Week 1 completion criteria
 
 Week 1 is complete when the team has reviewed and approved this charter, validated the ten user stories and acceptance criteria, accepted the AI Boundary Matrix, stored the initial architecture diagram, created the CodeGuard source repository, recorded the approved target fork and exact revision, created the ClickUp project, assigned identifiable tasks, linked genuine evidence, and recorded material AI assistance in the engineering log.
 
 Approval of this charter authorises prototype development only. It does not authorise production access, deployment, autonomous repository changes, or processing of restricted data.
-
