@@ -1,70 +1,27 @@
 {
-  "model": "gemini-3.1-flash-lite",
-  "prompt_version": "v1.1",
-  "latency_ms": 4858,
+  "model": "mock-not-a-foundation-model",
+  "prompt_version": "v1.0",
+  "latency_ms": 0,
   "plan": {
-    "feature": "Owner search",
+    "feature": "Sample feature",
     "status": "ready",
-    "source_summary": "The feature allows users to search for owners by last name. It supports exact matches, partial matches, and provides error handling for blank inputs and no-result scenarios.",
-    "assumptions": [
-      "The search interface includes a text input field and a search trigger mechanism.",
-      "The 'no-results' message is displayed on the same page as the search results.",
-      "The system is populated with sample owner data to allow for verification of search results."
-    ],
+    "source_summary": "An approved requirement was supplied.",
+    "assumptions": [],
     "missing_information": [],
     "tests": [
       {
         "test_id": "TP-01",
         "test_type": "normal",
-        "scenario": "Perform a search with an exact last-name match",
+        "scenario": "Verify the stated successful behaviour.",
         "preconditions": [
-          "System contains an owner with the last name 'Franklin'"
+          "The application is available."
         ],
-        "test_input": "Last name: Franklin",
-        "expected_result": "Displays owner identifier, full name, address, city, and telephone number for 'Franklin'.",
+        "test_input": "A valid example input",
+        "expected_result": "The approved requirement is satisfied.",
         "requirement_refs": [
-          "REQ-OWNER-SEARCH-01",
-          "REQ-OWNER-SEARCH-02"
+          "REQ-SAMPLE-01"
         ],
         "priority": "high"
-      },
-      {
-        "test_id": "TP-02",
-        "test_type": "normal",
-        "scenario": "Perform a search with a partial last-name match",
-        "preconditions": [
-          "System contains owners with last names 'Davis' and 'Davidson'"
-        ],
-        "test_input": "Last name: Dav",
-        "expected_result": "Displays a selectable list containing both 'Davis' and 'Davidson'.",
-        "requirement_refs": [
-          "REQ-OWNER-SEARCH-03"
-        ],
-        "priority": "medium"
-      },
-      {
-        "test_id": "TP-03",
-        "test_type": "negative",
-        "scenario": "Perform a search with a blank value",
-        "preconditions": [],
-        "test_input": "Last name: [empty]",
-        "expected_result": "Application rejects the search and displays a validation message.",
-        "requirement_refs": [
-          "REQ-OWNER-SEARCH-05"
-        ],
-        "priority": "high"
-      },
-      {
-        "test_id": "TP-04",
-        "test_type": "failure",
-        "scenario": "Perform a search for an owner that does not exist",
-        "preconditions": [],
-        "test_input": "Last name: NonExistentName",
-        "expected_result": "Application displays a clear no-results message and does not open an owner record.",
-        "requirement_refs": [
-          "REQ-OWNER-SEARCH-04"
-        ],
-        "priority": "medium"
       }
     ]
   }
