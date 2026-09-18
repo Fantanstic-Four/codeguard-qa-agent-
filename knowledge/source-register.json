@@ -1,0 +1,115 @@
+{
+  "version": "1.0",
+  "week": 3,
+  "project": "CodeGuard QA Agent",
+  "sources": [
+    {
+      "source_id": "CG-SRC-001",
+      "title": "CodeGuard System Overview",
+      "path": "knowledge/corpus/01-system-overview.md",
+      "provenance": "Team-created",
+      "basis": "Week 2 baseline/project scope",
+      "added": "2026-09-14",
+      "status": "Approved"
+    },
+    {
+      "source_id": "CG-SRC-002",
+      "title": "Input Contract",
+      "path": "knowledge/corpus/02-input-contract.md",
+      "provenance": "Team-created",
+      "basis": "Week 2 input behavior",
+      "added": "2026-09-14",
+      "status": "Approved"
+    },
+    {
+      "source_id": "CG-SRC-003",
+      "title": "Output Contract",
+      "path": "knowledge/corpus/03-output-contract.md",
+      "provenance": "Team-created",
+      "basis": "Week 2 schema/output behavior",
+      "added": "2026-09-14",
+      "status": "Approved"
+    },
+    {
+      "source_id": "CG-SRC-004",
+      "title": "Prompt and Grounding Policy",
+      "path": "knowledge/corpus/04-prompt-policy.md",
+      "provenance": "Team-created",
+      "basis": "Prompt v1.1 rules",
+      "added": "2026-09-14",
+      "status": "Approved"
+    },
+    {
+      "source_id": "CG-SRC-005",
+      "title": "RAG Retrieval Policy",
+      "path": "knowledge/corpus/05-rag-retrieval-policy.md",
+      "provenance": "Team-created",
+      "basis": "Week 3 design",
+      "added": "2026-09-15",
+      "status": "Approved"
+    },
+    {
+      "source_id": "CG-SRC-006",
+      "title": "RAG Configuration",
+      "path": "knowledge/corpus/06-rag-configuration.md",
+      "provenance": "Team-created",
+      "basis": "Week 3 configuration",
+      "added": "2026-09-15",
+      "status": "Approved"
+    },
+    {
+      "source_id": "CG-SRC-007",
+      "title": "Source Grounding Rules",
+      "path": "knowledge/corpus/07-source-grounding.md",
+      "provenance": "Team-created",
+      "basis": "Week 3 grounding contract",
+      "added": "2026-09-15",
+      "status": "Approved"
+    },
+    {
+      "source_id": "CG-SRC-008",
+      "title": "Safety and Authorization Boundaries",
+      "path": "knowledge/corpus/08-safety-boundaries.md",
+      "provenance": "Team-created",
+      "basis": "Capstone boundaries adapted to project",
+      "added": "2026-09-15",
+      "status": "Approved"
+    },
+    {
+      "source_id": "CG-SRC-009",
+      "title": "Week 2 Baseline",
+      "path": "knowledge/corpus/09-week2-baseline.md",
+      "provenance": "Team-created",
+      "basis": "Week 2 implementation record",
+      "added": "2026-09-15",
+      "status": "Approved"
+    },
+    {
+      "source_id": "CG-SRC-010",
+      "title": "Evaluation Policy",
+      "path": "knowledge/corpus/10-evaluation-policy.md",
+      "provenance": "Team-created",
+      "basis": "Week 3 evaluation design",
+      "added": "2026-09-16",
+      "status": "Approved"
+    },
+    {
+      "source_id": "CG-SRC-011",
+      "title": "Retrieval Observability",
+      "path": "knowledge/corpus/11-observability.md",
+      "provenance": "Team-created",
+      "basis": "Week 3 trace design",
+      "added": "2026-09-16",
+      "status": "Approved"
+    },
+    {
+      "source_id": "CG-SRC-012",
+      "title": "PetClinic Owner Management",
+      "path": "knowledge/corpus/12-petclinic-owner-management.md",
+      "provenance": "Team-created sample requirements",
+      "basis": "Approved sample feature requirements",
+      "added": "2026-09-14",
+      "status": "Approved"
+    }
+  ]
+}
