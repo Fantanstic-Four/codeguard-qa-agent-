@@ -1,0 +1,135 @@
+{
+  "version": "1.0",
+  "week": 3,
+  "cases": [
+    {
+      "case_id": "RAG-01",
+      "category": "answerable",
+      "question": "What model was selected for the Week 2 baseline?",
+      "expected_source_ids": [
+        "CG-SRC-009"
+      ],
+      "expected_behavior": "Gemini 3.1 Flash-Lite"
+    },
+    {
+      "case_id": "RAG-02",
+      "category": "answerable",
+      "question": "What are the default RAG top-k and minimum similarity settings?",
+      "expected_source_ids": [
+        "CG-SRC-006"
+      ],
+      "expected_behavior": "top-k 4; minimum cosine similarity 0.08"
+    },
+    {
+      "case_id": "RAG-03",
+      "category": "answerable",
+      "question": "Can CodeGuard automatically merge a pull request?",
+      "expected_source_ids": [
+        "CG-SRC-008"
+      ],
+      "expected_behavior": "No; automatic merge is prohibited"
+    },
+    {
+      "case_id": "RAG-04",
+      "category": "answerable",
+      "question": "What input is required before CodeGuard generates a test plan?",
+      "expected_source_ids": [
+        "CG-SRC-002"
+      ],
+      "expected_behavior": "non-empty feature name and approved Markdown/plain-text requirements"
+    },
+    {
+      "case_id": "RAG-05",
+      "category": "answerable",
+      "question": "What should happen when evidence is insufficient?",
+      "expected_source_ids": [
+        "CG-SRC-003",
+        "CG-SRC-004"
+      ],
+      "expected_behavior": "request clarification rather than invent details"
+    },
+    {
+      "case_id": "RAG-06",
+      "category": "answerable",
+      "question": "How are retrieved sources made traceable?",
+      "expected_source_ids": [
+        "CG-SRC-005",
+        "CG-SRC-007"
+      ],
+      "expected_behavior": "source ID, chunk ID, file, line range, score"
+    },
+    {
+      "case_id": "RAG-07",
+      "category": "answerable",
+      "question": "Can a user search PetClinic owners by last name?",
+      "expected_source_ids": [
+        "CG-SRC-012"
+      ],
+      "expected_behavior": "yes, REQ-OWN-001"
+    },
+    {
+      "case_id": "RAG-08",
+      "category": "answerable",
+      "question": "Which owner fields are required when creating an owner?",
+      "expected_source_ids": [
+        "CG-SRC-012"
+      ],
+      "expected_behavior": "first name and last name"
+    },
+    {
+      "case_id": "RAG-09",
+      "category": "partial",
+      "question": "How does owner search authenticate users and what search field is supported?",
+      "expected_source_ids": [
+        "CG-SRC-012"
+      ],
+      "expected_behavior": "last-name search is supported; authentication is unspecified"
+    },
+    {
+      "case_id": "RAG-10",
+      "category": "partial",
+      "question": "What database and API endpoint does owner creation use, and which fields does it accept?",
+      "expected_source_ids": [
+        "CG-SRC-012"
+      ],
+      "expected_behavior": "fields are specified; database and endpoint are not"
+    },
+    {
+      "case_id": "RAG-11",
+      "category": "partial",
+      "question": "What does the owner details page display and how are pets sorted?",
+      "expected_source_ids": [
+        "CG-SRC-012"
+      ],
+      "expected_behavior": "owner info and associated pets; sorting is not specified"
+    },
+    {
+      "case_id": "RAG-12",
+      "category": "unanswerable",
+      "question": "What is the production server IP address?",
+      "expected_source_ids": [],
+      "expected_behavior": "clarification/no grounded answer"
+    },
+    {
+      "case_id": "RAG-13",
+      "category": "unanswerable",
+      "question": "What password is used for the Gemini API account?",
+      "expected_source_ids": [],
+      "expected_behavior": "clarification/no grounded answer"
+    },
+    {
+      "case_id": "RAG-14",
+      "category": "unanswerable",
+      "question": "Which CI provider deploys CodeGuard to production?",
+      "expected_source_ids": [],
+      "expected_behavior": "clarification/no grounded answer"
+    },
+    {
+      "case_id": "RAG-15",
+      "category": "unanswerable",
+      "question": "What is the team's final Week 8 evaluation accuracy?",
+      "expected_source_ids": [],
+      "expected_behavior": "clarification/no grounded answer"
+    }
+  ]
+}
