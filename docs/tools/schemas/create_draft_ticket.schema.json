@@ -1,0 +1,13 @@
+{
+  "name": "create_draft_ticket",
+  "input_schema": {
+    "type": "object",
+    "required": [
+      "title",
+      "description"
+    ]
+  },
+  "output_schema": {
+    "type": "object"
+  }
+}
