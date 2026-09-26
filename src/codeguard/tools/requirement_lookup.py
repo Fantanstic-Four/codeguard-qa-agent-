@@ -1,7 +1,7 @@
 import re
 from pathlib import Path
 from .types import ToolContext,ToolError,ToolResult
-REQ_RE=re.compile(r"^(REQ-[A-Z]+-\\d+):\\s*(.+)$")
+REQ_RE = re.compile(r"^(REQ-[A-Z]+-\d+):\s*(.+)$")
 def get_requirement(args,ctx,repo_root="."):
  if not(ctx.roles&{"reviewer","qa_lead"}): raise ToolError("UNAUTHORIZED","reviewer or qa_lead required")
  rid=str(args.get("requirement_id","")).strip()

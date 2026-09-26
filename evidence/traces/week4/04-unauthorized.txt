@@ -1,0 +1,8 @@
+PS C:\dev\codeguard-qa-agent-> python -m codeguard.tool_cli publish_ticket --args '{\"ticket_id\":\"DRAFT-13307568\"}'
+{
+  "ok": false,
+  "tool": "publish_ticket",
+  "data": {},
+  "error_code": "UNAUTHORIZED",
+  "message": "qa_lead required"
+}
