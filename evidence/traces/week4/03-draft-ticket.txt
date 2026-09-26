@@ -1,0 +1,12 @@
+PS C:\dev\codeguard-qa-agent-> python --% -m codeguard.tool_cli create_draft_ticket --args "{\"title\":\"Review owner search\",\"description\":\"Check negative owner-search behavior\",\"requirement_id\":\"REQ-OWN-001\"}"
+{
+  "ok": true,
+  "tool": "create_draft_ticket",
+  "data": {
+    "ticket_id": "DRAFT-9915962F",
+    "status": "draft",
+    "path": "evidence\\tool-data\\draft-tickets\\DRAFT-9915962F.json"
+  },
+  "error_code": null,
+  "message": ""
+}
