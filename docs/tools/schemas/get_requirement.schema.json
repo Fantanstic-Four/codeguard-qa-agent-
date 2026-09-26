@@ -1,0 +1,12 @@
+{
+  "name": "get_requirement",
+  "input_schema": {
+    "type": "object",
+    "required": [
+      "requirement_id"
+    ]
+  },
+  "output_schema": {
+    "type": "object"
+  }
+}

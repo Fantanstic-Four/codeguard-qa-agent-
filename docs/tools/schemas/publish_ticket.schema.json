@@ -1,0 +1,12 @@
+{
+  "name": "publish_ticket",
+  "input_schema": {
+    "type": "object",
+    "required": [
+      "ticket_id"
+    ]
+  },
+  "output_schema": {
+    "type": "object"
+  }
+}
